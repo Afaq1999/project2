@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(186, 188, 190);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.a{
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    
+}
+
+ul{
+    background-color: rgb(38, 38, 46);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.918);
+    
+
+}
+
+ul li{
+    display:inline-block ;
+    margin-left: 20px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+ul li:hover{
+    background-color: rgba(21, 88, 97, 0.801);
+}
+
+.main-imag{
+    height: 550px;
+    background-image: url('الإلكترونيات_الحديثة_وأهميتها_في_خدمة_الإنسان.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 20px;
+    
+}
+
+.store{
+    padding: 90px 800px 0 0;
+    text-align: center;
+    font-size:50px;
+    background-color: rgb(186, 216, 243);
+}
+/*بداية المحتوى*/
+.our-features{
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.our-features h1{
+    color: rgb(17, 9, 48);
+}
+
+.features{
+    display: flex;
+    margin-top: 25px;
+}
+
+.features .feature{
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-left: 5px;
+    padding: 15px;
+    height: 350px;
+    border-radius: 5px;/*عمل اطراف دائرية*/
+    cursor: pointer;
+    transition: all 0.3px;
+
+}
+
+.features .feature img{
+    width: 60%;
+}
+
+.features .feature:hover{
+    box-shadow: 3px 3px 10px rgba(226, 61, 39, 0.705);
+    transform: translateX(2px);
+}
+
+.features .feature i{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(13, 13, 15);
+    color: white;
+    border-radius: 50%;
+}
+
+.features .feature h3{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+ 
+.features .feature p{
+    font-size: large;
+}
+.features .feature span{
+    color: rgb(179, 37, 37);
+}
+
+
+.position{
+    position:fixed;
+    top: 20px;
+    right: 10px;
+    background-color: rgb(72, 104, 133);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.918);
+    
+}
+
+.img{
+    width: 40px;
+    box-sizing:border-box;
+    border: 2px solid rgba(255, 255, 255, 0.918);
+    border-radius: 100px;
+    position:fixed;
+    top: 10px;
+    left:10px ;
+}
+
+.name{
+    position:fixed;
+    top: 20px;
+    left:40px ;
+    color: white;
+}
+
+/*start content*/
+
+.content{
+    background-color: white;
+    padding: 70px;
+    width: 89%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content h1{
+    color: rgb(17, 9, 48);
+    margin-bottom: 15px;
+}
+
+.content p{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.content img{
+    width: 300px;
+    margin-top: 10px;
+}
+
+/*start content-us*/
+.content-us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.content-form{
+    width: 700px;
+    background-color: rgb(79, 81, 83);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.input-form{
+    margin-bottom: 20px;
+}
+
+.input-form input{
+    width: 350px;
+    height: 30px;
+    border: 0px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input-form label{
+    font-size: 25px;
+    color: rgb(4, 22, 37);
+    margin-right: 10px;
+}
+
+.input-form textarea{
+    width: 350px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.btn-send{
+    background-color: rgb(11, 41, 66);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(60, 125, 141);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.btn-send:hover{
+    box-shadow: 3px 3px 10px rgba(39, 220, 226, 0.705);
+    transform: translateX(1px);
+}
